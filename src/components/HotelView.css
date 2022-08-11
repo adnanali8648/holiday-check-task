@@ -1,0 +1,41 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    margin: auto;
+}
+.rawData{
+    background-color: white;
+    padding: 5px;
+}
+.viewChange{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.styledView{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    padding-bottom: 12px;
+}
+.rating{
+    display: flex;
+    gap: 1;
+}
+.star{
+    font-size: xx-large;
+    color: rgb(255, 210, 8);
+}
+.error{
+    padding: 50px;
+    text-align: center;
+}
+
